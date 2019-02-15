@@ -114,13 +114,13 @@
     <footer class="l-Footer">
       <div>
         <a href="../index.html" class="l-Footer__logo">
-          <img
+          <!-- <img
             src="@/assets/kifurukaLogo.png"
             alt="がっこう寄付納税サイト【きふるか】"
             width="120"
             height="32"
             decoding="async"
-          >
+          >-->
         </a>
         <p class="l-Footer__copyright">
           <small>&copy; Kifuruka Co.,Ltd.All rights reserved.</small>

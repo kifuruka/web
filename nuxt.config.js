@@ -19,7 +19,8 @@ module.exports = {
       {
         rel: 'stylesheet',
         href: 'https://fonts.googleapis.com/css?family=M+PLUS+1p'
-      }
+      },
+
     ]
   },
 
@@ -31,7 +32,10 @@ module.exports = {
   /*
   ** Global CSS
   */
-  css: ["element-ui/lib/theme-chalk/index.css"
+  css: [
+    // "element-ui/lib/theme-chalk/index.css"
+    { src: '~assets/main.scss', lang: 'scss' }
+    // { src: 'bulma/bulma.sass', lang: 'sass' }
   ],
 
   /*
@@ -53,6 +57,7 @@ module.exports = {
   */
   build: {
     vendor: ["axios", "element-ui", "dayjs"],
+    // publicPath: "https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.x.x/js/swiper.min.js",
     /*
     ** You can extend webpack config here
     */

@@ -1,14 +1,8 @@
 <template>
-  <section class="container">
-    <home-visual/>
-    <logo/>
-  </section>
+  <section class="container"></section>
 </template>
 
 <script lang="babel">
-// import {mapState} from 'vuex'
-// import SearchResult from '~/components/SearchResult.vue'
-// import SearchForm from '~/components/SearchForm.vue'
 import HomeVisual from '~/components/HomeVisual.vue'
 import Logo from "~/components/Logo.vue";
 
@@ -16,18 +10,8 @@ export default {
   layout: 'navbar',
   components: {
     Logo,
-    // SearchForm,
-    // SearchResult,
     HomeVisual
   },
-  // store の state からデータを取得
-  // computed: mapState(['isLoading']),
-  // store の action に用意した 'getItems' を呼ぶ
-  // fetch ({ store }) {
-  //   store.dispatch('getItems', {
-  //     keyword: 'nuxt.js'
-  //   })
-  // }
 }
 </script>
 
