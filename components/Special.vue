@@ -1,6 +1,6 @@
 <template>
   <div class="feature">
-    <h2>特集</h2>
+    <h2>特集test</h2>
     <div class="container_feature">
       <div class="item">
         <a href="http://webcreatorbox.com/about">
